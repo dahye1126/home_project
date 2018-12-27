@@ -13,6 +13,9 @@
 	<form action="signup.do" method="get">
 		<input type="submit" value="회원가입">
 	</form>
+		<form action="signup.do" method="get">
+		<input type="submit" value="회원가입">
+	</form>
 
 </body>
 </html>
