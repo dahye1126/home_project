@@ -10,6 +10,9 @@
 	<form action="login.do" method="get">
 		<input type="submit" value="로그인">
 	</form>
+	<form action="signup.do" method="get">
+		<input type="submit" value="회원가입">
+	</form>
 
 </body>
 </html>

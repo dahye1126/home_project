@@ -7,9 +7,10 @@
 <title>로그인</title>
 </head>
 <body>
-	<form action="index.do" method="post">
-		아이디 : <input name="login_name" type="text"><br> 
-		비밀번호 : <input name="login_email" type="text"><br> 
+	<form action="login.do" method="post">
+		아이디 : <input name="login_id" type="text"><br> 
+		비밀번호 : <input name="login_password" type="text"><br> 
+		<input name="login_code" type="hidden" value="login">
 		<input type="submit" value="로그인">
 	</form>
 
